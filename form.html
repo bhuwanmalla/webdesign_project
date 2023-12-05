@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Contact</title>
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="#skills"> Skills </a></li>
+            <li><a href="form.html"> Contact </a></li>
+            
+        </ul>
+    </nav>
+    <div class="details">
+        <h2> Bhuwan Malla </h2>
+        <img src="Images/Bhuwan Malla.jpg" alt="Bhuwan Malla" class="profileimage">
+</header>
+<body>
+    <div class="form-container" id="contact-form">
+        <h2> Contact Form </h2>
+        <form action="">
+            <div class="contactdetails">
+                <label for="name" class="name" id="name"> Full Name <span style="color: red;"> * </span></label> 
+                <input type="text" name="name" placeholder="Full Name" required>
+            </div>
+            <div class="contactdetails">
+                <label for="email" class="email" id="email"> E-mail</label>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            
+            <div class="contactdetails">
+                <label for="phone"> Phone </label>
+                <input type="tel" name="phone" id="phone" placeholder="Phone Number" maxlength="12">
+            </div>
+    
+            <div class="radio">
+                <label for="contact" id="contact"> Contact Me By </label><br><br>
+                <input type="radio" class="radiobtn" id="email"  name="contact">
+                <label for="emailadd" > E-mail </label>
+                <input type="radio" class="radiobtn" id="phone" name="contact">
+                <label for="phone" > Phone </label>
+    
+            </div>
+            <div class="contactdetails">
+                <label for="feedback" id="messagetext"> Message  <span style="color: red;"> * </span> </label>
+                <textarea name="feedback" id="feedback" cols="20" rows="5" required></textarea>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Submit">
+            </div>
+    
+    
+        </form>
+    
+    </div>
+</body>
+</html>
