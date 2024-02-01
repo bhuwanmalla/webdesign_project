@@ -1,3 +1,3 @@
 # webdesign_project
-///////
-JHDJSHB
+
+This is my First Semester work.
